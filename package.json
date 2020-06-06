@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MirzaGe/SaylaniAssignmentWebApplication.git"
+  },
+  "author": "Mirza Shaharyar Baig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MirzaGe/SaylaniAssignmentWebApplication/issues"
+  },
+  "homepage": "https://github.com/MirzaGe/SaylaniAssignmentWebApplication#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0", 
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
